@@ -1,1 +1,4 @@
-# oop-1-project
+# Requirement
+- maven
+- OpenJDK 21
+- Tomcat 11
