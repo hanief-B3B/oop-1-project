@@ -11,7 +11,6 @@ public class Message {
         this.author = author;
     }
     
-    // Getters and Setters
     public String getContent() {
         return content;
     }
