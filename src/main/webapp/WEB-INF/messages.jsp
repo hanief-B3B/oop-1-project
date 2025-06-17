@@ -3,21 +3,33 @@
 <html>
 <head>
     <title>Messages</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
-<body>
-    <h1>Messages</h1>
-    <table border="1">
-        <tr>
-            <th>Author</th>
-            <th>Content</th>
-        </tr>
-        <c:forEach items="${messages}" var="message">
+<body class="bg-light">
+<div class="container py-5">
+    <h1 class="mb-4">Messages</h1>
+
+    <table class="table table-bordered table-hover bg-white">
+        <thead class="table-dark">
             <tr>
-                <td>${message.author}</td>
-                <td>${message.content}</td>
+                <th>Author</th>
+                <th>Content</th>
             </tr>
-        </c:forEach>
+        </thead>
+        <tbody>
+            <c:forEach items="${messages}" var="message">
+                <tr>
+                    <td>${message.author}</td>
+                    <td>${message.content}</td>
+                </tr>
+            </c:forEach>
+        </tbody>
     </table>
-    <p><a href="messages?action=new">Add New Message</a></p>
+
+    <div class="mt-4">
+        <a href="messages?action=new" class="btn btn-success">Add New Message</a>
+        <a href="../" class="btn btn-secondary">Home</a>
+    </div>
+</div>
 </body>
 </html>
