@@ -8,7 +8,6 @@ public class MessageService {
     private static final List<Message> messages = new ArrayList<>();
     
     static {
-        // Initialize with some sample messages
         messages.add(new Message("Hello, World!", "System"));
         messages.add(new Message("Welcome to our web app!", "Admin"));
     }
