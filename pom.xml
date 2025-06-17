@@ -17,7 +17,6 @@
     </properties>
 
     <dependencies>
-        <!-- Servlet API -->
         <dependency>
             <groupId>jakarta.servlet</groupId>
             <artifactId>jakarta.servlet-api</artifactId>
@@ -25,7 +24,6 @@
             <scope>provided</scope>
         </dependency>
         
-        <!-- JSTL for JSP -->
         <dependency>
             <groupId>jakarta.servlet.jsp.jstl</groupId>
             <artifactId>jakarta.servlet.jsp.jstl-api</artifactId>
