@@ -1,5 +1,5 @@
 
-# Java Web App – Detailed Code Explanation
+# Detailed Code Explanation
 
 This project follows a typical Java Web Application architecture using Servlet + JSP + MVC.
 
